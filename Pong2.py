@@ -89,7 +89,7 @@ class Ball(games.Sprite):
     
         Paddle.balldirect(self)
         
-        if self.direct == True:
+        if self.direct:
             self.dx=self.speed
         else:
             self.dx=-self.speed
